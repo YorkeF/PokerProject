@@ -59,7 +59,7 @@ public class Deck {
 
     public void printDeck(){
         for (int i = 0; i < deck.length; i++) {
-            System.out.println(deck[i].getCardValue());
+            System.out.println("Card " + (i + 1) + ": " + deck[i].getCardValue() + " of " + deck[i].getCardSuit());
         }
     }
 
